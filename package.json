@@ -3,15 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "-": "0.0.1",
     "http-server": "^0.9.0",
     "quixote": "^1.0.1"
   },
   "scripts": {
-    "dev": "./jake karma & ./watch loose=true"
+    "dev": "jake karma & watch loose=true"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
-    "jake": "^8.0.15",
+    "jake": "^8.1.1",
     "jshint": "^2.13.1",
     "karma": "^1.4.1",
     "karma-commonjs": "1.0.0",
