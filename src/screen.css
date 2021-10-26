@@ -3,18 +3,16 @@
 .container,
 .content {
   width: 100%;
-  background-color: rgb(99, 166, 224);
-  border: 1px solid;
 }
-.box {
-  float: left;
-  margin: 0px;
-  padding: 0px;
+
+.box2 {
   display: inline-block;
   width: 50%;
   height: max-content;
 }
+.box1 {
+  width: 620px;
+}
 .row {
-  padding: 0px;
-  margin: 0px;
+  display: inline-flex;
 }
