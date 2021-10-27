@@ -1,0 +1,18 @@
+/* Our CSS file. */
+
+.container,
+.content {
+  width: 100%;
+}
+
+.box2 {
+  display: inline-block;
+  width: 50%;
+  height: max-content;
+}
+.box1 {
+  width: 620px;
+}
+.row {
+  display: inline-flex;
+}
